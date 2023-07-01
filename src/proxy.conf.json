@@ -1,0 +1,9 @@
+
+{
+  "/tiingo/*": {
+    "target": "https://api.tiingo.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
