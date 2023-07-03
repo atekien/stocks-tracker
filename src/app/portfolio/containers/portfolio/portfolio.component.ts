@@ -16,8 +16,8 @@ export class PortfolioComponent implements OnInit{
   }
 
   ngOnInit(): void {
-
-  // this.portfolios.testApi();  API IS LIMITER to 500 calls
+    this.portfolios.loadPortfolioMock();
+  // this.portfolios.testApi();
     // this.portfolios.loadPortfolio(111);
   }
 
