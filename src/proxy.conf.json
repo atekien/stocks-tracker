@@ -5,5 +5,11 @@
     "secure": false,
     "logLevel": "debug",
     "changeOrigin": true
+  },
+  "/atekien/*": {
+    "target": "https://my-json-server.typicode.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
   }
 }
